@@ -1,21 +1,15 @@
 import React, { Component } from 'react';
 import './MemberList.css';
 
-class MemberList extends Component {
-    renderMemberList() {
-        return (
-            <li>1</li>
-        )
-    }
+import MemberListContainer from '../containers/MemberListContainer';
 
+class MemberList extends Component {
     render() {
         return (
             <div id="list">
                 <h2>Member List</h2>
                 <nav>
-                    <ul>
-                        {this.renderMemberList()}
-                    </ul>
+                    <MemberListContainer />
                 </nav>
             </div>
         );
