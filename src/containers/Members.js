@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import MemberList from '../components/MemberList';
-import Profile from '../components/Profile';
+import SelectMember from '../components/SelectMember';
 
 class Members extends Component {
     render() {
         return (
             <div id="members">
                 <MemberList/>
-                <Profile/>
+                <SelectMember/>
             </div>
         )
     }
