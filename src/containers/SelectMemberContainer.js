@@ -18,6 +18,7 @@ class SelectMemberContainer extends Component {
     }
 }
 
+// store로부터 state 객체 변경시 state 객체를 받아서 Component에서 props로 사용
 function mapStateToProps(state) {
     return {
         user: state.activeMember
