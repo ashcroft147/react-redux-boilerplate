@@ -27,6 +27,7 @@ class MemberListContainer extends Component {
     }
 }
 
+// store로부터 state 객체를 받아서 Component에서 props로 사용
 function mapStateToProps(state) {
     return {
         members: state.members
